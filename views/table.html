@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Table</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/theme.css">
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-sm navbar-light">
+        <div class="container">
+            <a href="/" class="navbar-brand mb-0 h1">
+                Home
+            </a>
+
+            <button 
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            class="navbar-toggler"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a href="./storefront" class="nav-link active">
+                            <span>Store Demo</span>
+                        </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="./table" class="nav-link active">
+                            <span>Table Demo</span>
+                        </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="./list" class="nav-link active">
+                            <span>List Demo</span>
+                        </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="./video" class="nav-link active">
+                            <span>Video Demo</span>
+                        </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="./audio" class="nav-link active">
+                            <span>Audio Demo</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <H1>Table</H1>
+        <H2>table1: my favorite songs</H2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Artist</th>
+                    <th>Song</th>
+                    <th>from album</th>
+                    <th>Youtube Link</th>
+                    <th>description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Red Hot Chili Peppers</td>
+                    <td>Eddie</td>
+                    <td>Return of the Dream Canteen</td>
+                    <td><a href="https://www.youtube.com/watch?v=pXMEXCT5ohY">Click Here!</a></td>
+                    <td rowspan="2">My favorite Band</td>
+                </tr>
+                <tr>
+                    <td>Red Hot Chili Peppers</td>
+                    <td>Scar Tissue</td>
+                    <td>Californication</td>
+                    <td><a href="https://www.youtube.com/watch?v=mzJj5-lubeM">Click Here!</a></td>
+                </tr>
+                <tr>
+                    <td>Linkin Park</td>
+                    <td>Numb</td>
+                    <td>Meteora</td>
+                    <td><a href="https://www.youtube.com/watch?v=kXYiU_JCYtU">Click Here!</a></td>
+                    <td>RIP Chester.</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <H2>table2: my favorite movies</H2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Movie</th>
+                    <th>Director</th>
+                    <th>Year</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Interstaller</td>
+                    <td>Christopher Nolan</td>
+                    <td>2014</td>
+
+                </tr>
+                <tr>
+                    <td>Tenet</td>
+                    <td>Christopher Nolan</td>
+                    <td>2020</td>
+
+                </tr>
+                <tr>
+                    <td>Infernal Affairs</td>
+                    <td>Andrew Lau, Alan Mak</td>
+                    <td>2002</td>
+                </tr>
+                <tr>
+                    <td colspan="3"><a href="https://www.imdb.com/">Go to IMDB to find my favourite movie</a></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h1>Description of this page</h1>
+        <p>There are 2 tables to present my favorite songs and movies. </p>
+    </main>
+
+</body>
+</html>
